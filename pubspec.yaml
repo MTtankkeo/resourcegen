@@ -1,0 +1,27 @@
+name: resourcegen
+description: A Dart CLI tool for generating code for static resources using a prepare-based workflow.
+version: 1.0.0
+publisher: ttankkeo112@gmail.com
+repository: https://github.com/MTtankkeo/resourcegen
+keywords:
+  - dart cli
+  - dart tool
+  - asset generator
+  - static resources
+  - code generation
+  - flutter assets
+  - prepare
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Add regular dependencies here.
+dependencies:
+  args: ^2.7.0
+  recase: ^4.1.0
+  yaml_magic: ^1.0.6
+  prepare: ^1.1.2
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6

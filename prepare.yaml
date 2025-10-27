@@ -1,0 +1,3 @@
+builder:
+  run_build: "dart run resourcegen build"
+  run_watch: "dart run resourcegen watch"
